@@ -1,11 +1,11 @@
 package com.leetcode.algorithms;
 
-import com.leetcode.algorithms.shortestSubarray.ShortestSubarray;
+
+import com.leetcode.algorithms.reverseWordsInAString.ReverseWordsInAString;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        System.out.println(ShortestSubarray.getLengthOfShortestSubarray(new int[]{2,-1,2},3));
+        System.out.println(ReverseWordsInAString.reverseWords("Java ebook"));
     }
 }
