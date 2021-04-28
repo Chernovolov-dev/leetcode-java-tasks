@@ -1,11 +1,11 @@
 package com.leetcode.algorithms;
 
-
-import com.leetcode.algorithms.reverseWordsInAString.ReverseWordsInAString;
+import com.leetcode.algorithms.jumpGame.JumpGame;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(ReverseWordsInAString.reverseWords("Java ebook"));
+        //1,-5,-20,4,-1,3,-6,-3
+        System.out.println(JumpGame.maxResult(new int[]{1,-5,-20,4,-1,3,-6,-3}, 2));
     }
 }
